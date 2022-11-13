@@ -21,18 +21,18 @@ with only **linear complexity**.
 ## Results and Pre-trained Models
 ### ImageNet-1K trained models
 
-|        name        | resolution | acc@1 | #params | FLOPs | model |
-|:------------------:|:---:|:-----:|:-------:|:-----:|:---:|
-| L<sup>2</sup>ViT-T | 224x224 | 83.1  |   29M   | 4.7G  | [model](https://dl.fbaipublicfiles.com/convnext/convnext_tiny_1k_224_ema.pth) |
-| L<sup>2</sup>ViT-S | 224x224 | 84.1  |   50M   | 9.0G  | [model](https://dl.fbaipublicfiles.com/convnext/convnext_small_1k_224_ema.pth) |
-| L<sup>2</sup>ViT-B | 224x224 | 84.4  |   89M   | 15.9G | [model](https://dl.fbaipublicfiles.com/convnext/convnext_base_1k_224_ema.pth) |
+|        name        | resolution | acc@1 | #params | FLOPs | model | log | 
+|:------------------:|:---:|:-----:|:-------:|:-----:|:---:|:---:|
+| L<sup>2</sup>ViT-T | 224x224 | 83.1  |   29M   | 4.7G  | [model](https://github.com/ChuanyangZheng/L2ViT/releases/download/untagged-fbb324b38db09b7a6ae1/L2ViT-Tiny-checkpoint-best-ema.pth) | [log](https://github.com/ChuanyangZheng/L2ViT/releases/download/untagged-fbb324b38db09b7a6ae1/L2ViT-Tiny-log.txt) |
+| L<sup>2</sup>ViT-S | 224x224 | 84.1  |   50M   | 9.0G  | [model](https://github.com/ChuanyangZheng/L2ViT/releases/download/untagged-fbb324b38db09b7a6ae1/L2ViT-Small-checkpoint-best-ema.pth) | [log](https://github.com/ChuanyangZheng/L2ViT/releases/download/untagged-fbb324b38db09b7a6ae1/L2ViT-Small-log.txt) |
+| L<sup>2</sup>ViT-B | 224x224 | 84.4  |   89M   | 15.9G | [model](https://github.com/ChuanyangZheng/L2ViT/releases/download/untagged-fbb324b38db09b7a6ae1/L2ViT-Base-checkpoint-best-ema.pth) | [log](https://github.com/ChuanyangZheng/L2ViT/releases/download/untagged-fbb324b38db09b7a6ae1/L2ViT-Base-log.txt) |
 
 ### ImageNet-22K trained models
 
-| name | resolution | acc@1 | #params | FLOPs | 22k model | 1k model |
-|:---:|:---:|:-----:|:---:|:-----:| :---:|:---:|
-| L<sup>2</sup>ViT-B | 224x224 | 86.0  | 89M | 15.9G | [model](https://dl.fbaipublicfiles.com/convnext/convnext_base_22k_224.pth)   | [model](https://dl.fbaipublicfiles.com/convnext/convnext_base_22k_1k_224.pth)
-| L<sup>2</sup>ViT-B | 384x384 | 87.0  | 89M | 47.5G |     -          | [model](https://dl.fbaipublicfiles.com/convnext/convnext_base_22k_1k_384.pth)
+| name | resolution | acc@1 | #params | FLOPs |                                                                  22k model                                                                   |                                                                  log                                                                  |                                                                      1k model                                                                       | log  |
+|:---:|:---:|:-----:|:---:|:-----:|:--------------------------------------------------------------------------------------------------------------------------------------------:|:-------------------------------------------------------------------------------------------------------------------------------------:|:---------------------------------------------------------------------------------------------------------------------------------------------------:|:----:|
+| L<sup>2</sup>ViT-B | 224x224 | 86.0  | 89M | 15.9G | [model](https://github.com/ChuanyangZheng/L2ViT/releases/download/untagged-fbb324b38db09b7a6ae1/L2ViT-Base-22k-pretrain-checkpoint-best.pth) |    [log](https://github.com/ChuanyangZheng/L2ViT/releases/download/untagged-fbb324b38db09b7a6ae1/L2ViT-Base-22k-pretrain-log.txt)     | [model](https://github.com/ChuanyangZheng/L2ViT/releases/download/untagged-fbb324b38db09b7a6ae1/L2ViT-Base-22k21k-finetune-224-checkpoint-best.pth) | [log](https://github.com/ChuanyangZheng/L2ViT/releases/download/untagged-fbb324b38db09b7a6ae1/L2ViT-Base-22k21k-finetune-224-log.txt) |                              
+| L<sup>2</sup>ViT-B | 384x384 | 87.0  | 89M | 47.5G |                                                                                                                                 -            |                          -                                                                                                            | [model](https://github.com/ChuanyangZheng/L2ViT/releases/download/untagged-fbb324b38db09b7a6ae1/L2ViT-Base-22k21k-finetune-384-checkpoint-best.pth) | [log](https://github.com/ChuanyangZheng/L2ViT/releases/download/untagged-fbb324b38db09b7a6ae1/L2ViT-Base-22k21k-finetune-384-log.txt) |
 
 ## Usage
 ### Installation
