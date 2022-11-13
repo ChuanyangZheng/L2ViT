@@ -1,6 +1,6 @@
 # The Linear Attention Resurrection in Vision Transformer
 
-Official PyTorch implementation of **L<sup>2</sup>ViT** from the paper:
+This repository is the official PyTorch implementation of **L<sup>2</sup>ViT** from the paper:
 
 The Linear Attention Resurrection in Vision Transformer
 
