@@ -1,4 +1,7 @@
 torch==1.8.0
-torchvision==0.9.0
+torchvision==0.8.0
 timm==0.4.9
-opencv-python==4.4.0
+opencv-python==4.5.5
+# additional info
+# CUDA 11.1
+# CuDNN 8.0.4

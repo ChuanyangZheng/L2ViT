@@ -152,8 +152,13 @@ class in datasets.py.
 mapping file in main.py to ensure the category mapping from 22k to 1k is right.
 
 ### Object detection and semantic segmentation
-Follow the official OpenMMLab [mmdetection](https://github.com/open-mmlab/mmdetection) and 
-[mmsegementation](https://github.com/open-mmlab/mmsegmentation) for installation.
+Follow the official 
+OpenMMLab [MMCV 1.4.8](https://github.com/open-mmlab/mmcv)
+
+OpenMMLab [mmdetection 2.23.0+a86720d](https://github.com/open-mmlab/mmdetection) 
+
+OpenMMLab [mmsegementation 0.26.0+01ad6bb](https://github.com/open-mmlab/mmsegmentation) for installation.
+you may choose most recent version.
 
 After installation, you need copy the following files into mmdetection/mmsegmentation directory. 
 1. Put ```object_detection/configs/*``` into ```path_to_mmdetection/configs/l2vit/```
